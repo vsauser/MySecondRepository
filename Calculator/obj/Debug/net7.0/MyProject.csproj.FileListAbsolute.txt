@@ -1,0 +1,15 @@
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\bin\Debug\net7.0\MyProject.exe
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\bin\Debug\net7.0\MyProject.deps.json
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\bin\Debug\net7.0\MyProject.runtimeconfig.json
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\bin\Debug\net7.0\MyProject.dll
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\bin\Debug\net7.0\MyProject.pdb
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.csproj.AssemblyReference.cache
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.AssemblyInfoInputs.cache
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.AssemblyInfo.cs
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.csproj.CoreCompileInputs.cache
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.dll
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\refint\MyProject.dll
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.pdb
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\MyProject.genruntimeconfig.cache
+C:\MyProject_C#\MyProject_C#_New\MySecondRepository\Calculator\obj\Debug\net7.0\ref\MyProject.dll
