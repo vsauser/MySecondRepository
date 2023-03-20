@@ -3,40 +3,61 @@
     public static void Main(string[] args) 
     {
         string repeat = "Y";
+        bool resultofcompare = false;
         do
         {
-            Console.WriteLine("Insert number X?????????:");
-            string FirstString = Console.ReadLine();
-            int X = Convert.ToInt32(FirstString);
-            Console.WriteLine("Insert number Y?????????:");
-            string SecondString = Console.ReadLine();
-            int Y = Convert.ToInt32(SecondString);
+            resultofcompare = false;
+            Console.WriteLine("Insert number X:");
+            string firstString = Console.ReadLine();
+            int x = Convert.ToInt32(firstString);
+            Console.WriteLine("Insert number Y:");
+            string secondString = Console.ReadLine();
+            int y = Convert.ToInt32(secondString);
+            bool correctoperation = false;
             Console.WriteLine("Choose operating (+, -, *, /)");
-            string Operating = Console.ReadLine();
-            if (Operating == "+")
-            {
-                int Summ = X + Y;
-                Console.WriteLine("Summ = " + Summ);
-            }
-            else if (Operating == "-")
-            {
-                int Substruct = X - Y;
-                Console.WriteLine("Substruct = " + Substruct);
-            }
-            else if (Operating == "*")
-            {
-                        int Add = X * Y;
-                        Console.WriteLine("Add = " + Add);
-            }
-            else if (Operating == "/")
-            {
-                double Div = (double)X / (double)Y;
-                Console.WriteLine("{0:F4}", Div);
-            }
+            string operating = Console.ReadLine();
 
-            Console.WriteLine("Do you want to repeat evaluation?");
-
+            do
+            {
+                if (operating == "+")
+                {
+                    int summ = x + y;
+                    Console.WriteLine("Summ = " + summ);
+                    correctoperation = true;
+                }
+                else if (operating == "-")
+                {
+                    int substruct = x - y;
+                    Console.WriteLine("Substruct = " + substruct);
+                    correctoperation = true;
+                }
+                else if (operating == "*")
+                {
+                    int add = x * y;
+                    Console.WriteLine("Add = " + add);
+                    correctoperation = true;
+                }
+                else if (operating == "/")
+                {
+                    double div = (double)x / (double)y;
+                    Console.Write("Div = ");
+                    Console.WriteLine("{0:F2}", div);
+                    correctoperation = true;
+                }
+                else
+                {
+                    Console.WriteLine("You are make a mistake, please insert correct operation");
+                    Console.WriteLine("Choose operating (+, -, *, /)");
+                    operating = Console.ReadLine();
+                }
+            }
+            while(correctoperation == false);
+    
+            Console.WriteLine("Do you want to repeat evaluation? If Yes - insert y, if No - insert n");
+            repeat = Console.ReadLine();
+            if((repeat == "Y")||(repeat == "y")) resultofcompare = true;
         }
-        while (Console.ReadLine() == "Y");
+
+        while (resultofcompare);
     }  
 }
